@@ -25,8 +25,9 @@ class clock
 
   static void Main()
   {
-      Console.WriteLine("To find the angle of the clock, enter a number between 1 and 12");
+      Console.WriteLine("To find the angle of the clock, enter a number between 1 and 12 for hours");
       double hourInput = Convert.ToDouble(Console.ReadLine());
+      Console.WriteLine("Enter a number between 1-59 for the minutes")
       double minuteInput = Convert.ToDouble(Console.ReadLine());
 
       clock co =new clock();
